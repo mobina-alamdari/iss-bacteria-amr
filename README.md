@@ -1,27 +1,64 @@
 # Antimicrobial Resistance Genes in ISS Bacteria
 
-*Work in progress*
+**Investigating antimicrobial resistance (AMR) genes in *Enterobacter bugandensis* strains isolated from the International Space Station (ISS) and comparing them with clinical strains from Earth.**
 
-## Research question
-Do *Enterobacter bugandensis* strains isolated from the International Space Station (ISS) carry different antimicrobial resistance (AMR) genes from clinical strains of the same species found in hospitals on Earth?
+**Status:** Work in Progress
+
+## Research Question
+
+Do *Enterobacter bugandensis* strains isolated from the International Space Station carry different antimicrobial resistance (AMR) genes compared with clinical strains of the same species isolated on Earth?
 
 ## Background
-*E. bugandensis* is an opportunistic pathogen and a member of the ESKAPE group of bacteria, which are a major cause of antibiotic-resistant hospital infections. Multidrug-resistant strains of this species have also been isolated from surfaces aboard the ISS. Comparing the resistance genes of space and clinical strains can help us understand how bacteria adapt to closed environments such as spacecraft and hospitals.
 
-## Plan
-1. Download publicly available genomes of ISS and clinical *E. bugandensis* strains from NCBI
-2. Identify AMR genes in each genome using an established tool (e.g. AMRFinderPlus or the CARD database)
-3. Compare the AMR gene profiles of ISS and clinical strains using Python (pandas, matplotlib)
-4. Summarise the results and their limitations
+*Enterobacter bugandensis* is an opportunistic bacterial pathogen associated with hospital-acquired infections. Strains of this species have also been identified aboard the International Space Station (ISS), raising questions about bacterial adaptation and antimicrobial resistance in closed space environments.
 
-## Data source
-Public genome assemblies from NCBI (accession numbers will be listed here)
+Comparing ISS-associated strains with clinical isolates from Earth may help reveal differences in their antimicrobial resistance gene profiles and improve our understanding of bacterial adaptation in different environments.
 
-## Status
-- [ ] Select and download genomes
-- [ ] Identify AMR genes
-- [ ] Compare and visualise results
-- [ ] Write up findings
+## Objectives
+
+- Collect publicly available genome assemblies of ISS-associated and clinical *E. bugandensis* strains.
+- Identify antimicrobial resistance genes using established bioinformatics tools.
+- Compare AMR gene profiles between ISS-associated and clinical strains.
+- Visualize the results using Python.
+- Discuss the findings, limitations, and potential implications.
+
+## Methodology
+
+1. **Genome collection:** Retrieve publicly available genome assemblies and metadata from the NCBI database.
+2. **AMR gene identification:** Analyze genomes using tools such as AMRFinderPlus or the Comprehensive Antibiotic Resistance Database (CARD).
+3. **Data analysis:** Organize and compare AMR gene profiles using Python and pandas.
+4. **Data visualization:** Create plots using matplotlib to explore similarities and differences between the groups.
+5. **Interpretation:** Summarize the findings while considering sample size, genome quality, and other limitations.
+
+## Tools and Technologies
+
+- Python
+- pandas
+- matplotlib
+- NCBI genome database
+- AMRFinderPlus / CARD
+
+## Data Sources
+
+Genome assemblies and associated metadata will be obtained from the [NCBI Assembly database](https://www.ncbi.nlm.nih.gov/datasets/genome/).
+
+Genome accession numbers and relevant metadata will be documented as the dataset is assembled.
+
+## Project Progress
+
+- [ ] Identify relevant ISS-associated and clinical strains.
+- [ ] Download genome assemblies and metadata.
+- [ ] Identify AMR genes in each genome.
+- [ ] Compare gene profiles between the two groups.
+- [ ] Visualize the results.
+- [ ] Document findings and limitations.
+
+## Expected Outcome
+
+This project aims to develop a comparative overview of antimicrobial resistance genes in ISS-associated and clinical *E. bugandensis* strains. The analysis may help identify differences in gene profiles and generate hypotheses for further investigation.
+
+The presence of an AMR gene does not necessarily establish phenotypic antibiotic resistance. Results will therefore be interpreted cautiously, and conclusions will be limited by the available genomic data.
 
 ## Author
+
 Mobina Alamdari
